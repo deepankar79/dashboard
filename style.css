@@ -1,0 +1,11 @@
+.left {
+  background-color: rgba(0, 106, 255, 0.963);
+}
+.first {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+}
+.nav-items {
+  display: flex;
+}
