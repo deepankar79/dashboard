@@ -1,28 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
 .left {
-  background-color: rgba(0, 106, 255, 0.963);
+  background-color: rgba(24, 120, 255, 0.963);
+}
+.header {
+  margin: 4vh 1vw;
+  display: flex;
+  gap: 5px;
+  color: white;
+}
+
+.icon,
+.p-icons {
+  height: 24px;
+  width: 24px;
+}
+.profile-pic-small {
+  height: 43px;
+  width: 43px;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+.profile-pic {
+  height: 60px;
+  width: 60px;
+  margin-left: 2%;
 }
 .first {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   height: 100vh;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-top: 9vh;
 }
 .nav-items {
   display: flex;
+  color: #ffffff;
 }
 
 .right-1a,
 .right-1b,
 .right-nav {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin: 2%;
+}
+.right-1b {
+  margin-top: 5vh;
+}
+.right-1b-a {
+  display: flex;
+  gap: 5%;
+}
+.right-1b-a-b {
+  margin-right: 35vw;
+}
+.right-nav {
+  gap: 2%;
+}
+#search-box {
+  width: 45vw;
+  background-color: rgb(212, 210, 210);
+  border-radius: 15px;
+  height: 4vh;
+  margin-left: 2%;
+  margin-right: 6%;
+}
+.btn {
+  background-color: rgba(24, 120, 255, 0.963);
+  align-items: center;
+  color: #ffffff;
+  border-radius: 100px;
+  box-shadow: none;
+  border-width: 0;
+  padding: 6px 20px;
 }
 .right-2 {
-  background-color: rgb(165, 165, 165);
+  background-color: rgb(212, 210, 210);
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
 .right-2a {
+  margin: 2%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+.box {
+  background-color: white;
+  border-radius: 25px;
+  border-left-style: solid;
+  border-left-color: rgba(204, 136, 0, 0.853);
+  border-left-width: 10px;
+}
+.box > p {
+  margin: 5%;
+}
+.p-icon {
+  margin: 2vh 0;
+  display: flex;
+  justify-content: end;
+  gap: 4%;
+}
+.sub-heading {
+  font-weight: 700;
+}
+.right-2b-a {
+  border-radius: 2%;
+  margin-top: 3vh;
+  background-color: #ffffff;
+}
+.right-2b-a > p {
+  padding: 7%;
 }
