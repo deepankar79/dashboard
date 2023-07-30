@@ -9,3 +9,20 @@
 .nav-items {
   display: flex;
 }
+
+.right-1a,
+.right-1b,
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.right-2 {
+  background-color: rgb(165, 165, 165);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.right-2a {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
