@@ -7,7 +7,7 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
 }
 ul {
   list-style-type: none;
@@ -21,7 +21,10 @@ ul {
   gap: 5px;
   color: white;
 }
-
+.main-icon {
+  height: 50px;
+  width: 50px;
+}
 .icon,
 .p-icons {
   height: 24px;
@@ -46,12 +49,16 @@ ul {
 .nav {
   display: flex;
   flex-direction: column;
+
   gap: 3vh;
   margin-top: 9vh;
 }
 .nav-items {
   display: flex;
   color: #ffffff;
+  gap: 2%;
+  align-items: center;
+  font-weight: 600;
 }
 
 .right-1a,
@@ -76,7 +83,7 @@ ul {
 }
 #search-box {
   width: 45vw;
-  background-color: rgb(212, 210, 210);
+  background-color: lightgray;
   border-radius: 15px;
   height: 4vh;
   margin-left: 2%;
@@ -91,10 +98,14 @@ ul {
   border-width: 0;
   padding: 6px 20px;
 }
-.right-2 {
+.right-main {
   background-color: rgb(212, 210, 210);
+  width: 100%;
+  height: 100vh;
+}
+.right-2 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .right-2a {
@@ -121,6 +132,7 @@ ul {
 }
 .sub-heading {
   font-weight: 700;
+  font-size: medium;
 }
 .right-2b-a {
   border-radius: 2%;
@@ -129,4 +141,7 @@ ul {
 }
 .right-2b-a > p {
   padding: 7%;
+}
+.annc-data {
+  font-size: small;
 }
