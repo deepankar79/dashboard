@@ -30,17 +30,7 @@ ul {
   height: 24px;
   width: 24px;
 }
-.profile-pic-small {
-  height: 43px;
-  width: 43px;
-  margin-left: 2%;
-  margin-right: 4%;
-}
-.profile-pic {
-  height: 60px;
-  width: 60px;
-  margin-left: 2%;
-}
+
 .first {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -61,25 +51,20 @@ ul {
   font-weight: 600;
 }
 
+/* Right side */
+.right-1 {
+  margin-bottom: 1%;
+}
 .right-1a,
 .right-1b,
 .right-nav {
   display: flex;
-  /* justify-content: space-between; */
-  margin: 2%;
 }
-.right-1b {
-  margin-top: 5vh;
-}
-.right-1b-a {
-  display: flex;
-  gap: 5%;
-}
-.right-1b-a-b {
-  margin-right: 35vw;
-}
-.right-nav {
-  gap: 2%;
+.right-1a {
+  margin-top: 1%;
+  margin-left: 4%;
+  font-weight: 600;
+  align-items: center;
 }
 #search-box {
   width: 45vw;
@@ -89,6 +74,40 @@ ul {
   margin-left: 2%;
   margin-right: 6%;
 }
+.profile-pic-small {
+  height: 43px;
+  width: 43px;
+  margin-left: 2%;
+  margin-right: 4%;
+  border-radius: 45%;
+}
+
+.profile-pic {
+  height: 60px;
+  width: 60px;
+  margin-left: 2%;
+  border-radius: 45%;
+}
+.right-1b {
+  margin-top: 3%;
+  margin-left: 4%;
+}
+.right-1b-a {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.right-1b-a-b {
+  margin-right: 8vw;
+}
+.right-1b-a-b > p {
+  width: 30vw;
+  font-weight: 600;
+}
+.right-nav {
+  gap: 10%;
+}
+
 .btn {
   background-color: rgba(24, 120, 255, 0.963);
   align-items: center;
@@ -96,7 +115,8 @@ ul {
   border-radius: 100px;
   box-shadow: none;
   border-width: 0;
-  padding: 6px 20px;
+  padding: 10px 30px;
+  font-size: medium;
 }
 .right-main {
   background-color: rgb(212, 210, 210);
